@@ -13,6 +13,9 @@
     src: url(../fonts/Raleway/Raleway-Medium.ttf);
   }
   
+  #aboutimage{
+    margin-left: 50px;
+  }
   
 .carousel-inner > .carousel-item {
     height: 430px;
