@@ -13,6 +13,9 @@
     src: url(../fonts/Raleway/Raleway-Medium.ttf);
   }
   
+  #aboutimage{
+    margin-left: 50px;
+  }
   
 .carousel-inner > .carousel-item {
     height: 430px;
@@ -43,6 +46,13 @@
     width: 125px;
     background-color: #598258;
  }
+ .navbar-brand{
+   text-align: center;
+   width:320px;
+
+   border-radius: .5em;
+
+ }
 
 
  #logoText{
@@ -50,6 +60,7 @@
      color: #598258;
      font-size:  50px;
      margin-top: 15px;
+  
  }
 
  h2{
@@ -126,9 +137,9 @@ font-size: 25px;
 
  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
-* {
+/* * {
   font-family: Roboto;
-}
+} */
 
 .mainText{
     margin-bottom: 50px;
@@ -218,6 +229,28 @@ font-family: Raleway;
 
 }
 
+#ceremony{
+  min-height: 300px;
+  border: 1px solid #dddddd;
+}
+
+#reception{
+  background-color: #dddddd;
+  min-height: 300px;
+  border: 1px solid #dddddd;
+}
+
+#couples{
+  min-height: 300px;
+  border: 1px solid #dddddd;
+}
+.gallerytitle{
+  font-family: Great Vibes;
+  font-size: 50px;
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: center;
+}
 
 
 .footer-distributed {
